@@ -29,8 +29,6 @@ package EntryTask;
 
 Результатом работы калькулятора с арабскими числами могут быть отрицательные числа и ноль.
 Результатом работы калькулятора с римскими числами могут быть только положительные числа, если результат работы меньше единицы, выбрасывается исключение
-
-https://stackoverflow.com/questions/12967896/converting-integers-to-roman-numerals-java
  */
 
 public class Main {
@@ -135,9 +133,5 @@ public class Main {
             }
         }
         return result.toString();
-    }
-
-    public static void main(String[] args) throws Exception {
-        System.out.println(calc("IX * IX"));
     }
 }
