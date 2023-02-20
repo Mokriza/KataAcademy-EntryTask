@@ -134,4 +134,7 @@ public class Main {
         }
         return result.toString();
     }
+    public static void main(String[] args) throws Exception {
+        System.out.println(calc("IX * IX"));
+    }
 }
